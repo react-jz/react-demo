@@ -9,4 +9,3 @@ This is a barebones implementation of Redux with a React app that was generated 
 
 :bulb: :bulb: It is worth noting that it is **not** required to run `npm run eject` in order to get Redux implemented in this app.  Implementing Redux in the app without ejecting is completely possible
 
-![demo](images/demo.gif)
