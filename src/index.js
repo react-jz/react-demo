@@ -7,9 +7,14 @@ import configureStore from './store/configure-store';
 
 const store = configureStore();
 
+//import styles
+import 'weui';
+
+{/*<Provider store={store}>*/}
+{/*<App />*/}
+{/*</Provider>,*/}
+
 ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+    <App />,
   document.getElementById('root')
 );

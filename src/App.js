@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-import Index from './components/Index/index';
+// import Home from './components/Home/home'
+// import Index from './components/Index/index';
+import Routes from './components/Routes'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <p className="App-intro">
-          header
-        </p>
-        <Index />
+          {/*<Home/>*/}
+        {/*<Index />*/}
+        <Routes/>
       </div>
     );
   }
